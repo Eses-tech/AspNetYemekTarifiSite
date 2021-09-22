@@ -12,11 +12,6 @@
     
     
     <style type="text/css">
-        .auto-style2 {
-            width: 1059px;
-            height: 173px;
-            background-color: #FF9999;
-        }
         .auto-style3 {
             width: 1059px;
             height: 50px;
@@ -50,9 +45,11 @@
     
     
 </head>
-<body>
+<body style="background-color:grey">
     <form id="form1" runat="server">
-        <div style="margin-left:200px;" class="auto-style2">
+        <div style="margin-left:200px;width:1059px;height:210px;">
+            
+            <asp:Image ID="Image1" runat="server" Height="210px" ImageUrl="~/resimler/yemek.jpg" Width="1056px" CssClass="auto-style11" />
             
         </div>
 
@@ -80,7 +77,9 @@
                      </strong>
                      <asp:DataList ID="DataList1" runat="server">
                          <ItemTemplate>
+                             <a href="KategoriDetay.aspx?Kategoriid=<%#Eval("Id")%>"><strong>
                              <asp:Label ID="Label1" runat="server" Text='<%# Eval("KategoriAd") %>'></asp:Label>
+                             </strong></a>
                              &nbsp;( <asp:Label ID="Label2" runat="server" Text='<%# Eval("KategoriAdet") %>'></asp:Label>
                              )
                          </ItemTemplate>

@@ -71,7 +71,10 @@
     <Content Include="GununYemegi.aspx" />
     <Content Include="Hakkimizda.aspx" />
     <Content Include="Iletisim.aspx" />
+    <Content Include="KategoriDetay.aspx" />
+    <Content Include="resimler\hakkimda.jpg" />
     <Content Include="resimler\pacanga.jpg" />
+    <Content Include="resimler\yemek.jpg" />
     <Content Include="StyleSheet1.css" />
     <Content Include="TarifPaylas.aspx" />
     <Content Include="Web.config" />
@@ -105,6 +108,13 @@
     </Compile>
     <Compile Include="Iletisim.aspx.designer.cs">
       <DependentUpon>Iletisim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KategoriDetay.aspx.cs">
+      <DependentUpon>KategoriDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KategoriDetay.aspx.designer.cs">
+      <DependentUpon>KategoriDetay.aspx</DependentUpon>
     </Compile>
     <Compile Include="Kullanıcı.Master.cs">
       <DependentUpon>Kullanıcı.Master</DependentUpon>
