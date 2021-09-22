@@ -41,6 +41,9 @@
         .auto-style27 {
             font-weight: bold;
         }
+        .auto-style28 {
+            text-align: left;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -65,21 +68,37 @@
             </ItemTemplate>
         </asp:DataList>
     </asp:Panel>
-    <asp:Panel ID="Panel3" runat="server" BackColor="Silver">
-        KATEGORİ EKLEME</asp:Panel>
+    <asp:Panel ID="Panel3" runat="server" BackColor="Silver" CssClass="auto-style11" Height="35px">
+        <div class="auto-style28">
+            <span class="auto-style21">KATEGORİ EKLE<br /> </span>
+        </div>
+    </asp:Panel>
     <asp:Panel ID="Panel4" runat="server" Width="479px">
         <table style="color:white;">
             <tr>
+                <td class="auto-style22">&nbsp;</td>
+                <td class="auto-style23">
+                    &nbsp;</td>
+            </tr>
+            <tr>
                 <td class="auto-style22">KATEGORİ AD:</td>
                 <td class="auto-style23">
-                    <asp:TextBox ID="TextBox1" runat="server" Width="268px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1" runat="server" Width="242px"></asp:TextBox>
                 </td>
+            </tr>
+            <tr>
+                <td class="auto-style22">&nbsp;</td>
+                <td class="auto-style23">&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style22">KATEGORİ ICON:</td>
                 <td class="auto-style25">
-                    <asp:FileUpload ID="FileUpload1" runat="server" Width="274px" />
+                    <asp:FileUpload ID="FileUpload1" runat="server" Width="249px" />
                 </td>
+            </tr>
+            <tr>
+                <td class="auto-style22">&nbsp;</td>
+                <td class="auto-style25">&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style22">&nbsp;</td>
