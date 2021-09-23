@@ -70,7 +70,7 @@
                              <td><a href="Kategoriler.aspx">Kategoriler</a></td>
                          </tr>
                          <tr>
-                             <td>Yemekler</td>
+                             <td><a href="Yemekler.aspx">Yemekler</a></td>
                          </tr>
                          <tr>
                              <td>Yorumlar</td>
