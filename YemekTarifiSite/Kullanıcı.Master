@@ -40,6 +40,36 @@
             text-align: center;
             font-size: large;
         }
+        .auto-style13 {
+            height: 47px;
+            text-align: center;
+            font-size: large;
+            width: 139px;
+        }
+        .auto-style14 {
+            height: 47px;
+            text-align: center;
+            font-size: large;
+            width: 147px;
+        }
+        .auto-style15 {
+            height: 47px;
+            text-align: center;
+            font-size: large;
+            width: 216px;
+        }
+        .auto-style16 {
+            height: 47px;
+            text-align: center;
+            font-size: large;
+            width: 208px;
+        }
+        .auto-style17 {
+            height: 47px;
+            text-align: center;
+            font-size: large;
+            width: 183px;
+        }
     </style>
     
     
@@ -59,11 +89,13 @@
 
             <table class="auto-style7">
                 <tr>
-                    <td class="auto-style12"><strong><a href="Anasayfa.aspx">ANASAYFA</a></strong></td>
-                    <td class="auto-style12"><strong><a href="GununYemegi.aspx">GÜNÜN YEMEĞİ</a></strong></td>
-                    <td class="auto-style12"><strong><a href="TarifPaylas.aspx">TARİF PAYLAŞ</a></strong></td>
-                    <td class="auto-style12"><strong><a href="Hakkimizda.aspx">HAKKIMIZDA</a></strong></td>
-                    <td class="auto-style12"><strong><a href="Iletisim.aspx">İLETİŞİM</a></strong></td>
+                    <td class="auto-style14"><strong><a href="Anasayfa.aspx">ANASAYFA</a></strong></td>
+                    <td class="auto-style15"><strong><a href="GununYemegi.aspx">GÜNÜN YEMEĞİ</a></strong></td>
+                    <td class="auto-style16"><strong><a href="TarifPaylas.aspx">TARİF PAYLAŞ</a></strong></td>
+                    <td class="auto-style17"><strong><a href="Hakkimizda.aspx">HAKKIMIZDA</a></strong></td>
+                    <td class="auto-style13"><strong><a href="Iletisim.aspx">İLETİŞİM</a></strong></td>
+                    <td class="auto-style12"><strong><a href="Admin.aspx">GİRİŞ</a></strong></td>
+
                 </tr>
             </table>
 

@@ -43,12 +43,33 @@
         }
         .auto-style28 {
             text-align: left;
+            height: 37px;
+        }
+        .auto-style29 {
+            width: 55px;
+        }
+        .auto-style30 {
+            width: 56px;
         }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <asp:Panel ID="Panel1" runat="server" BackColor="Silver">
-        <span class="auto-style21">KATEGORİ LİSTESİ</span></asp:Panel>
+        <div>
+            
+            <table class="auto-style15" style="border-bottom-style: groove; border-bottom-width: thin; border-bottom-color: #000000">
+                <tr>
+                    <td class="auto-style29"><strong>
+                        <asp:Button ID="Button2" runat="server" CssClass="auto-style27" Text="+" Width="48px" OnClick="Button2_Click" />
+                        </strong></td>
+                    <td><strong>
+                        <asp:Button ID="Button3" runat="server" CssClass="auto-style27" Text="-" Width="48px" OnClick="Button3_Click" />
+                        </strong></td>
+                    <td class="auto-style21">KATEGORİLER LİSTESİ</td>
+                </tr>
+            </table>
+        </div>
+    </asp:Panel>
     <asp:Panel ID="Panel2" runat="server">
         <asp:DataList ID="DataList1" runat="server" Width="575px">
             <ItemTemplate>
@@ -61,16 +82,29 @@
                             <asp:Image ID="Image2" runat="server" Height="31px" ImageUrl="~/iconlar/delete.png" Width="46px" />
                         </td>
                         <td class="auto-style18">
-                            <asp:Image ID="Image3" runat="server" Height="31px" ImageUrl="~/iconlar/update.png" Width="46px" />
+                            <a href="AdminKategoriDuzenleme.aspx?Kategoriid=<%#Eval("Id") %>"><asp:Image ID="Image3" runat="server" Height="31px" ImageUrl="~/iconlar/update.png" Width="46px" /></a>
                         </td>
                     </tr>
                 </table>
             </ItemTemplate>
         </asp:DataList>
     </asp:Panel>
+
     <asp:Panel ID="Panel3" runat="server" BackColor="Silver" CssClass="auto-style11" Height="35px">
         <div class="auto-style28">
-            <span class="auto-style21">KATEGORİ EKLE<br /> </span>
+            
+            <table class="auto-style15">
+                <tr>
+                    <td class="auto-style30"><strong>
+                        <asp:Button ID="Button4" runat="server" CssClass="auto-style27" OnClick="Button4_Click" Text="+" Width="48px" />
+                        </strong></td>
+                    <td><strong>
+                        <asp:Button ID="Button5" runat="server" CssClass="auto-style27" OnClick="Button5_Click" Text="-" Width="48px" />
+                        </strong></td>
+                    <td class="auto-style21">KATEGORİ EKLE</td>
+                </tr>
+            </table>
+            
         </div>
     </asp:Panel>
     <asp:Panel ID="Panel4" runat="server" Width="479px">

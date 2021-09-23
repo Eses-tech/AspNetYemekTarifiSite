@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admin.aspx" />
+    <Content Include="AdminKategoriDuzenleme.aspx" />
     <Content Include="Anasayfa.aspx" />
     <Content Include="GununYemegi.aspx" />
     <Content Include="Hakkimizda.aspx" />
@@ -99,6 +100,13 @@
     </Compile>
     <Compile Include="Admin.Master.designer.cs">
       <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="AdminKategoriDuzenleme.aspx.cs">
+      <DependentUpon>AdminKategoriDuzenleme.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminKategoriDuzenleme.aspx.designer.cs">
+      <DependentUpon>AdminKategoriDuzenleme.aspx</DependentUpon>
     </Compile>
     <Compile Include="Anasayfa.aspx.cs">
       <DependentUpon>Anasayfa.aspx</DependentUpon>
