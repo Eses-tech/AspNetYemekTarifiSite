@@ -1,82 +1,60 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Kullanıcı.Master" AutoEventWireup="true" CodeBehind="YemekDetay.aspx.cs" Inherits="YemekTarifiSite.YemekDetay" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <style type="text/css">
-        .auto-style12 {
-            font-size: x-large;
-        }
-        .auto-style13 {
-            font-size: large;
-        }
-    .auto-style14 {
-        font-size: medium;
-    }
-        .auto-style15 {
-            background-color: #EEE7D5;
-        }
-        .auto-style16 {
-            text-align: right;
-        }
-    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <p class="auto-style12">
-        <strong>Yorumlar<asp:DataList ID="DataList2" runat="server">
+    <p style="font-size: large">
+        <strong><span style="font-size: x-large; color: #000000;">Yorumlar</span></strong><asp:DataList ID="DataList2" runat="server" Width="235px">
             <ItemTemplate>
-                <table class="auto-style7">
+                <table style="width: 100%">
                     <tr>
                         <td>
-                            <asp:Label ID="Label3" runat="server" CssClass="auto-style13" Text='<%# Eval("YorumAdSoyad") %>'></asp:Label>
+                            <asp:Label ID="Label3" runat="server" Text='<%# Eval("YorumAdSoyad") %>' style="font-weight: 700"></asp:Label>
                             :</td>
                     </tr>
                     </strong>
                     <tr>
-                        <td>
-                            <asp:Label ID="Label4" runat="server" CssClass="auto-style14" Text='<%# Eval("YorumIcerik") %>'></asp:Label>
-                            &nbsp;-
-                            <asp:Label ID="Label5" runat="server" CssClass="auto-style14" Text='<%# Eval("YorumTarih") %>'></asp:Label>
+                        <td style="border-bottom-style: groove; border-bottom-width: thin; border-bottom-color: #000000">
+                            <asp:Label ID="Label4" runat="server" Text='<%# Eval("YorumIcerik") %>'></asp:Label>
+                            <strong>&nbsp;- </strong>
+                            <asp:Label ID="Label5" runat="server" Text='<%# Eval("YorumTarih") %>' style="font-size: x-small"></asp:Label>
                         </td>
                     </tr>
-                    <tr>
-                        <td style="border-bottom-style: groove; border-bottom-width: thick; border-bottom-color: #000000">&nbsp;</td>
-                    </tr>
+                    <strong>
+                    </strong>
                 </table>
             </ItemTemplate>
         </asp:DataList>
     </p>
-    <div class="auto-style15">Yorum Yapın:</div>
+    <div style="height: 24px; font-size: large; background-color: #999999; text-align: center;"><strong>Yorum Yapın:</strong></div>
     <asp:Panel ID="Panel1" runat="server">
-        <table class="auto-style7">
+        <table style="width: 100%">
             <tr>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style16">Ad Soyad:</td>
+                <td style="text-align: right"><strong>Ad Soyad:</strong></td>
                 <td>
                     <asp:TextBox ID="TextBox1" runat="server" Width="250px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
-                <td class="auto-style16">E-mail:</td>
+                <td style="text-align: right"><strong>E-Mail:</strong></td>
                 <td>
                     <asp:TextBox ID="TextBox2" runat="server" TextMode="Email" Width="250px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
-                <td class="auto-style16">Yorum:</td>
+                <td style="text-align: right"><strong>Yorum:</strong></td>
                 <td>
-                    <asp:TextBox ID="TextBox3" runat="server" Height="100px" TextMode="MultiLine" Width="250px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox3" runat="server" Height="150px" TextMode="MultiLine" Width="250px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td>&nbsp;</td>
                 <td>
-                    <asp:Button ID="Button1" runat="server" BackColor="White" Height="24px" OnClick="Button1_Click" Text="Yorum Yap" Width="119px" />
+                    <asp:Button ID="Button1" runat="server" Height="35px" OnClick="Button1_Click" Text="Yorum Yap" Width="91px" />
                 </td>
-            </tr>
-            <tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
             </tr>
         </table>
     </asp:Panel>

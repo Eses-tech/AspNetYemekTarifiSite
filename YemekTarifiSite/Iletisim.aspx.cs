@@ -13,7 +13,7 @@ namespace YemekTarifiSite
         SqlBaglanti baglan = new SqlBaglanti();
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         protected void Button1_Click(object sender, EventArgs e)
@@ -25,7 +25,11 @@ namespace YemekTarifiSite
             komut.Parameters.AddWithValue("@m4",TextBox1.Text);
             komut.ExecuteNonQuery();
             baglan.baglanti().Close();
-            Response.Write("Mesajınız Alınmıştır..");
+
+            Response.Redirect("Iletisim.aspx");
+
+            
+
         }
     }
 }

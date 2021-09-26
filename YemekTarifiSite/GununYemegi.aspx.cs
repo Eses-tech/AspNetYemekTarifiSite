@@ -13,7 +13,7 @@ namespace YemekTarifiSite
         SqlBaglanti baglan = new SqlBaglanti();
         protected void Page_Load(object sender, EventArgs e)
         {
-            SqlCommand komut = new SqlCommand("Select * from GununYemegi", baglan.baglanti());
+            SqlCommand komut = new SqlCommand("Select * from Yemekler where YemekDurum=1", baglan.baglanti());
             SqlDataReader oku = komut.ExecuteReader();
             DataList2.DataSource = oku;
             DataList2.DataBind();

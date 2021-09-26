@@ -11,61 +11,52 @@ namespace YemekTarifiSite
 {
 
 
-    public partial class TarifPaylas
+    public partial class AdminGununYemegiaspx
     {
 
         /// <summary>
-        /// TxtTarifAd control.
+        /// Panel1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtTarifAd;
+        protected global::System.Web.UI.WebControls.Panel Panel1;
 
         /// <summary>
-        /// TxtTarifMalzeme control.
+        /// Button1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtTarifMalzeme;
+        protected global::System.Web.UI.WebControls.Button Button1;
 
         /// <summary>
-        /// TxtTarifYapim control.
+        /// Button2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtTarifYapim;
+        protected global::System.Web.UI.WebControls.Button Button2;
 
         /// <summary>
-        /// TxtTarifGonderen control.
+        /// Panel2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtTarifGonderen;
+        protected global::System.Web.UI.WebControls.Panel Panel2;
 
         /// <summary>
-        /// TxtTarifGonderenMail control.
+        /// DataList1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtTarifGonderenMail;
-
-        /// <summary>
-        /// BtnTarifPaylas control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnTarifPaylas;
+        protected global::System.Web.UI.WebControls.DataList DataList1;
     }
 }

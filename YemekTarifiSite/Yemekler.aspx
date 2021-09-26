@@ -16,11 +16,6 @@
         text-align: right;
         width: 154px;
     }
-    .auto-style20 {
-        font-size: large;
-        color: #FFFFFF;
-        background-color: #000033;
-    }
     .auto-style21 {
         font-size: x-large;
     }
@@ -67,7 +62,7 @@
     <asp:Panel ID="Panel1" runat="server" BackColor="Silver">
         <div>
             
-            <table class="auto-style15" style="border-bottom-style: groove; border-bottom-width: thin; border-bottom-color: #000000">
+            <table class="auto-style15" style="border-bottom: thin groove #000000; margin-top: 0px;">
                 <tr>
                     <td class="auto-style29"><strong>
                         <asp:Button ID="Button2" runat="server" CssClass="auto-style27" Text="+" Width="48px" OnClick="Button2_Click"  />
@@ -85,14 +80,14 @@
             <ItemTemplate>
                 <table class="auto-style17">
                     <tr>
-                        <td class="auto-style16"><strong>
-                            <asp:Label ID="Label1" runat="server" CssClass="auto-style20" Text='<%# Eval("YemekAd") %>'></asp:Label>
-                            </strong></td>
+                        <td class="auto-style16">
+                            <asp:Label ID="Label2" runat="server" style="color: #FFFFFF; font-size: large" Text='<%# Eval("YemekAd") %>'></asp:Label>
+                        </td>
                         <td class="auto-style19">
-                            <a href="Kategoriler.aspx?Kategoriid=<%#Eval("Id") %>&islem=sil"><asp:Image ID="Image2" runat="server" Height="31px" ImageUrl="~/iconlar/delete.png" Width="46px" /></a>
+                            <a href="Yemekler.aspx?yemekid=<%#Eval("Id")%>&islem=sil"><asp:Image ID="Image2" runat="server" Height="31px" ImageUrl="~/iconlar/delete.png" Width="46px" /></a>
                         </td>
                         <td class="auto-style18">
-                            <a href="AdminKategoriDuzenleme.aspx?Kategoriid=<%#Eval("Id") %>"><asp:Image ID="Image3" runat="server" Height="31px" ImageUrl="~/iconlar/update.png" Width="46px" /></a>
+                            <a href="AdminYemekDuzenleme.aspx?yemekid=<%#Eval("Id") %>"><asp:Image ID="Image3" runat="server" Height="31px" ImageUrl="~/iconlar/update.png" Width="46px" /></a>
                         </td>
                     </tr>
                 </table>
@@ -145,14 +140,14 @@
             <tr>
                 <td class="auto-style31">KATEGORİ:</td>
                 <td class="auto-style26">
-                    <asp:DropDownList ID="DropDownList1" runat="server" Width="300px">
+                    <asp:DropDownList ID="DropDownList2" runat="server" Width="300px">
                     </asp:DropDownList>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style22">&nbsp;</td>
                 <td class="auto-style32"><strong>
-                    <asp:Button ID="Button1" runat="server" CssClass="auto-style27" Height="34px" Text="EKLE" Width="94px" />
+                    <asp:Button ID="Button1" runat="server" CssClass="auto-style27" Height="34px" Text="EKLE" Width="94px" OnClick="Button1_Click" />
                     </strong></td>
             </tr>
             <tr>

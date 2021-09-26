@@ -73,16 +73,16 @@
                              <td><a href="Yemekler.aspx">Yemekler</a></td>
                          </tr>
                          <tr>
-                             <td>Yorumlar</td>
+                             <td><a href="Yorumlar.aspx">Yorumlar</a></td>
                          </tr>
                          <tr>
-                             <td>Mesajlar</td>
+                             <td><a href="Mesajlar.aspx">Mesajlar</a></td>
                          </tr>
                          <tr>
-                             <td>Günün Yemeği</td>
+                             <td><a href="AdminGununYemegi.aspx">Gunun Yemegi</a></td>
                          </tr>
                          <tr>
-                             <td>Öneriler</td>
+                             <td><a href="Tarifler.aspx">Öneriler</a></td>
                          </tr>
                          <tr>
                              <td>&nbsp;</td>

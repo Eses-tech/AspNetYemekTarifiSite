@@ -38,6 +38,14 @@
                         <td>&nbsp;</td>
                     </tr>
                     <tr>
+                        <td style="text-align: center">
+                            <asp:Image ID="Image2" runat="server" Height="246px" ImageUrl='<%# Eval("YemekResim") %>' Width="659px" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
                         <td><strong>Puan:</strong><asp:Label ID="Label6" runat="server" Text='<%# Eval("YemekPuan") %>'></asp:Label>
                             &nbsp; -&nbsp; <strong>Eklenme Tarihi:</strong><asp:Label ID="Label7" runat="server" Text='<%# Eval("YemekTarih") %>'></asp:Label>
                         </td>

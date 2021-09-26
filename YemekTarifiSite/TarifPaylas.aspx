@@ -6,7 +6,8 @@
     }
     .auto-style13 {
         margin-left: 0px;
-    }
+            font-size: medium;
+        }
 </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -34,12 +35,6 @@
         </td>
     </tr>
     <tr>
-        <td class="auto-style12"><strong>Tarif Resmi:</strong></td>
-        <td>
-            <asp:FileUpload ID="FileUpload1" runat="server" Width="340px" />
-        </td>
-    </tr>
-    <tr>
         <td class="auto-style12"><strong>Gonderen:</strong></td>
         <td>
             <asp:TextBox ID="TxtTarifGonderen" runat="server" Width="333px"></asp:TextBox>
@@ -54,7 +49,7 @@
     <tr>
         <td>&nbsp;</td>
         <td class="auto-style12"><strong>
-            <asp:Button ID="BtnTarifPaylas" runat="server" BackColor="White" CssClass="auto-style13" Height="36px" Text="Tarif Paylaş" Width="97px" OnClick="Button1_Click" />
+            <asp:Button ID="BtnTarifPaylas" runat="server" BackColor="White" CssClass="auto-style7" Height="36px" Text="Tarif Paylaş" Width="97px" OnClick="Button1_Click" />
             </strong></td>
     </tr>
     <tr>

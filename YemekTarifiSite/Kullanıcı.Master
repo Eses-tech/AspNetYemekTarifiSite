@@ -94,7 +94,7 @@
                     <td class="auto-style16"><strong><a href="TarifPaylas.aspx">TARİF PAYLAŞ</a></strong></td>
                     <td class="auto-style17"><strong><a href="Hakkimizda.aspx">HAKKIMIZDA</a></strong></td>
                     <td class="auto-style13"><strong><a href="Iletisim.aspx">İLETİŞİM</a></strong></td>
-                    <td class="auto-style12"><strong><a href="Admin.aspx">GİRİŞ</a></strong></td>
+                    <td class="auto-style12"><strong><a href="Login.aspx">GİRİŞ</a></strong></td>
 
                 </tr>
             </table>

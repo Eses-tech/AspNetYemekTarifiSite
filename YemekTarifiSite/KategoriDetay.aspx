@@ -21,6 +21,14 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
+                <td style="text-align: center">
+                    <asp:Image ID="Image2" runat="server" Height="220px" ImageUrl='<%# Eval("YemekResim") %>' Width="615px" />
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
                 <td><strong>Yapılış:</strong><asp:Label ID="Label5" runat="server" Text='<%# Eval("YemekTarif") %>'></asp:Label>
                 </td>
             </tr>

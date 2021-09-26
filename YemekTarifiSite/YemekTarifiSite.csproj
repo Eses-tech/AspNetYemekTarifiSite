@@ -68,24 +68,38 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admin.aspx" />
+    <Content Include="AdminGununYemegi.aspx" />
+    <Content Include="AdminGununYemegiSecim.aspx" />
     <Content Include="AdminKategoriDuzenleme.aspx" />
+    <Content Include="AdminMesajDetay.aspx" />
+    <Content Include="AdminTarifDetay.aspx" />
+    <Content Include="AdminYemekDuzenleme.aspx" />
+    <Content Include="AdminYorumDetay.aspx" />
     <Content Include="Anasayfa.aspx" />
     <Content Include="GununYemegi.aspx" />
     <Content Include="Hakkimizda.aspx" />
     <Content Include="iconlar\delete.png" />
+    <Content Include="iconlar\goruntuleme.jpg" />
+    <Content Include="iconlar\sec.png" />
     <Content Include="iconlar\update.png" />
     <Content Include="Iletisim.aspx" />
     <Content Include="KategoriDetay.aspx" />
     <Content Include="Kategoriler.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="Mesajlar.aspx" />
     <Content Include="resimler\admin.jpg" />
     <Content Include="resimler\hakkimda.jpg" />
+    <Content Include="resimler\karnıyarık1.jpg" />
+    <Content Include="resimler\mercimek.jpg" />
     <Content Include="resimler\pacanga.jpg" />
     <Content Include="resimler\yemek.jpg" />
     <Content Include="StyleSheet1.css" />
+    <Content Include="Tarifler.aspx" />
     <Content Include="TarifPaylas.aspx" />
     <Content Include="Web.config" />
     <Content Include="YemekDetay.aspx" />
     <Content Include="Yemekler.aspx" />
+    <Content Include="Yorumlar.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Admin.aspx.cs">
@@ -102,12 +116,54 @@
     <Compile Include="Admin.Master.designer.cs">
       <DependentUpon>Admin.Master</DependentUpon>
     </Compile>
+    <Compile Include="AdminGununYemegiaspx.aspx.cs">
+      <DependentUpon>AdminGununYemegi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminGununYemegiaspx.aspx.designer.cs">
+      <DependentUpon>AdminGununYemegi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminGununYemegiSecim.aspx.cs">
+      <DependentUpon>AdminGununYemegiSecim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminGununYemegiSecim.aspx.designer.cs">
+      <DependentUpon>AdminGununYemegiSecim.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AdminKategoriDuzenleme.aspx.cs">
       <DependentUpon>AdminKategoriDuzenleme.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="AdminKategoriDuzenleme.aspx.designer.cs">
       <DependentUpon>AdminKategoriDuzenleme.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminMesajDetay.aspx.cs">
+      <DependentUpon>AdminMesajDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminMesajDetay.aspx.designer.cs">
+      <DependentUpon>AdminMesajDetay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTarifDetay.aspx.cs">
+      <DependentUpon>AdminTarifDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTarifDetay.aspx.designer.cs">
+      <DependentUpon>AdminTarifDetay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminYemekDuzenleme.aspx.cs">
+      <DependentUpon>AdminYemekDuzenleme.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminYemekDuzenleme.aspx.designer.cs">
+      <DependentUpon>AdminYemekDuzenleme.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminYorumDetay.aspx.cs">
+      <DependentUpon>AdminYorumDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminYorumDetay.aspx.designer.cs">
+      <DependentUpon>AdminYorumDetay.aspx</DependentUpon>
     </Compile>
     <Compile Include="Anasayfa.aspx.cs">
       <DependentUpon>Anasayfa.aspx</DependentUpon>
@@ -158,8 +214,29 @@
     <Compile Include="Kullanıcı.Master.designer.cs">
       <DependentUpon>Kullanıcı.Master</DependentUpon>
     </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mesajlar.aspx.cs">
+      <DependentUpon>Mesajlar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mesajlar.aspx.designer.cs">
+      <DependentUpon>Mesajlar.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlBaglanti.cs" />
+    <Compile Include="Tarifler.aspx.cs">
+      <DependentUpon>Tarifler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tarifler.aspx.designer.cs">
+      <DependentUpon>Tarifler.aspx</DependentUpon>
+    </Compile>
     <Compile Include="TarifPaylas.aspx.cs">
       <DependentUpon>TarifPaylas.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -180,6 +257,13 @@
     </Compile>
     <Compile Include="Yemekler.aspx.designer.cs">
       <DependentUpon>Yemekler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Yorumlar.aspx.cs">
+      <DependentUpon>Yorumlar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Yorumlar.aspx.designer.cs">
+      <DependentUpon>Yorumlar.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
